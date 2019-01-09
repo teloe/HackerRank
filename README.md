@@ -18,3 +18,6 @@
 - [Warmup](https://github.com/teloe/HackerRank/tree/master/Algorithms/Warmup)
 - [Implementation](https://github.com/teloe/HackerRank/tree/master/Algorithms/Implementation)
 - [Strings](https://github.com/teloe/HackerRank/tree/master/Algorithms/Strings)
+
+## Data Structures
+- [Arrays](https://github.com/teloe/HackerRank/tree/master/Data%20Structures/Arrays)
