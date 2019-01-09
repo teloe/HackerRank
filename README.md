@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.hackerrank.com/tomeloe">  
-    <img src="https://camo.githubusercontent.com/120623ed42efc40d4667373d10237a3ec77d4ff3/687474703a2f2f6772616473696e67616d65732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031352f31322f7469746c652d6861636b657272616e6b2e6a7067" alt="HackerRank">
+    <img src="https://hrcdn.net/hackerrank/assets/hackerranklogo_green-303a3e111709a4c302e5fcb7847aa8c4.png" alt="HackerRank">
   </a>
 
 </p>
