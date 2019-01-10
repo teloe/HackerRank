@@ -1,22 +1,37 @@
+// https://www.hackerrank.com/challenges/two-characters/problem
+
 'use strict';
 
-/**
- * HackerRank - Two Characters
- * https://www.hackerrank.com/challenges/two-characters/problem
- * 
- * Complete the alternate function in the editor below. It should return an integer that 
- * denotes the longest string that can be formed, or 0 if it cannot be done.
- */
-
 function alternate(s) {
-  // return string, t
   let t = 0;
-  // if the number of different types of chars % !== 0, return 0
-  for (let i = 0; i < s.length; i++) {
-    let char = s[i];
-    let count = 0;
-    if (char === char + 1) {
-      count++;
+  let set = new Set(s);
+  set = Array.from(set);
+  // console.log(set);
+  for (let i = 0; i < set.length; i++) {
+    for (let j = i+1; j < set.length; j++) {
+      var count = 0;
+      var check = 0;
+      var a = set[i];
+      var b = set[j];
+      for(let l = 0; l < s.length; l++){
+        if(s[l] === a){
+          if(check === true){
+            count = 0;
+            break;
+          }
+          check = true;
+          count ++;
+        }
+        if(s[l] === b){
+          if(check === false){
+            count = 0;
+            break;
+          }
+          check = false;
+          count ++;
+        }       
+      }
+      t = Math.max(t, count);
     }
   }
   return t;
